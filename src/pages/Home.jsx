@@ -25,7 +25,7 @@ export default function Home() {
   }, [query, type, status, rating]);
 
   return (
-    <h1 className="text-4xl text-blue-400 font-bold">Tailwind đang hoạt động!</h1>
+   
 
     <div className="min-h-screen bg-[#0f172a] text-white">
       {/* Header */}
@@ -93,6 +93,7 @@ export default function Home() {
 
         {/* Main content */}
         <div className="flex-1 p-4 md:p-6">
+           <h1 className="text-4xl text-blue-400 font-bold">Tailwind đang hoạt động!</h1>
           {/* Search input */}
           <div className="flex gap-2 mb-4">
             <input
@@ -102,7 +103,7 @@ export default function Home() {
               placeholder="Search for anime..."
             />
           </div>
-
+        
           {/* Anime cards */}
           {loading ? (
             <p>Loading...</p>
