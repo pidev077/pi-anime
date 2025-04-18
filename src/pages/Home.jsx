@@ -9,7 +9,7 @@ export default function Home() {
   const { data, loading } = useFetch(url);
 
   const handleSearch = () => {
-    setUrl(\`https://api.jikan.moe/v4/anime?q=\${query}\`);
+    setUrl(`https://api.jikan.moe/v4/anime?q=${query}`);
   };
 
   return (
