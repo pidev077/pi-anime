@@ -6,7 +6,7 @@ export default function Detail() {
   const [anime, setAnime] = useState(null);
 
   useEffect(() => {
-    fetch(\`https://api.jikan.moe/v4/anime/\${id}\`)
+    fetch(`https://api.jikan.moe/v4/anime/${id}`)
       .then((res) => res.json())
       .then((data) => setAnime(data.data));
   }, [id]);
