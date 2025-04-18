@@ -1,0 +1,16 @@
+{
+  "name": "pi-anime",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",              // nếu bạn dùng Vite
+    "build": "vite build",      // hoặc đổi tùy tool bạn xài
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.0"
+  }
+}
