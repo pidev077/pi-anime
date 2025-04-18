@@ -25,6 +25,8 @@ export default function Home() {
   }, [query, type, status, rating]);
 
   return (
+    <h1 className="text-4xl text-blue-400 font-bold">Tailwind đang hoạt động!</h1>
+
     <div className="min-h-screen bg-[#0f172a] text-white">
       {/* Header */}
       <div className="w-full flex justify-between items-center p-4 bg-[#1e293b] shadow-md">
