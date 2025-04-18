@@ -35,7 +35,8 @@ export default function Home() {
           View Wishlist
         </button>
       </div>
-<h1 className="text-4xl text-green-500 font-bold">Tailwind đang hoạt động 🎉</h1>
+return <h1 style={{ color: 'red' }}>Test React</h1>;
+
 
       {/* Main layout */}
       <div className="flex">
