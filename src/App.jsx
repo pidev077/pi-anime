@@ -9,9 +9,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <Routes><h1 className="text-4xl font-bold text-green-500">
-  Nếu bạn thấy chữ xanh → Tailwind OK
-</h1>
+      <Routes>
 
         <Route path="/" element={<Home />} />
         <Route path="/anime/:id" element={<Detail />} />
